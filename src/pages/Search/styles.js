@@ -3,7 +3,6 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   align-items: center;
-  justify-content: center;
   padding: 20px;
 `;
 
@@ -15,9 +14,9 @@ export const Image = styled.Image`
   align-self: center;
   width: 150px;
   height: 150px;
-  margin-top: 20px;
   border-radius: 100px;
   background-color: #ffaec8;
+  margin-top: 20px;
 `;
 
 export const Input = styled.TextInput`

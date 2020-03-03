@@ -15,11 +15,14 @@ export const Image = styled.Image`
 `;
 
 export const Name = styled.Text`
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f7f7f7;
 `;
 
 export const Description = styled.Text`
-  
+  font-size: 12px;
+  color: #f7f7f7;
 `;
 
 export const Row = styled.View`
@@ -30,4 +33,5 @@ export const Row = styled.View`
 `;
 
 export const Label = styled.Text`
+  color: #f7f7f7;
 `;

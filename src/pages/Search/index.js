@@ -81,6 +81,9 @@ export default function Search({ navigation }) {
 
   return (
     <>
+      <Image
+        source={{ uri: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' }}
+      />
       <Container>
         <Title>Insira o nome do usuário</Title>
         <Input
